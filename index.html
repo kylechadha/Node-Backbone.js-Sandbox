@@ -34,7 +34,7 @@
 
     var router = new Router();
     router.on('route:home', function() {
-      console.log('We have loaded the home page oh yeah!');
+      userList.render();
     });
 
     Backbone.history.start();
